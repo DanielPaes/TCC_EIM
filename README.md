@@ -12,10 +12,10 @@ Ao final, os desempenhos dos classificadores foram calculados usando as métrica
 
 ## Extração de caracetísticas
 
-Na extração das caracteríticas foi utilziada a GLCM e o Filtro de Gabor. 
+Na extração das caracteríticas, foram utilizados a GLCM e o Filtro de Gabor. 
 
-1. **GLCM**: foi construída usando 1 distância e 4 ângulos. As features extraídas foram: *contrast', 'dissimilarity', 'homogeneity', energy, correlation e ASM*
+1. **GLCM**: foi construída usando 1 distância e 4 ângulos. As features extraídas foram: *contrast, dissimilarity, homogeneity, energy, correlation* e *ASM*
 
-2. **Filtro de Gabor**: se variou o frequency e o theta, gerando 64 filtros por imagem. De cada filtro, se calculou o somatório, média e energia. Ao final, foram extraídas 192 features por imagem.
+2. **Filtro de Gabor**: se variou o frequency e o theta, gerando 64 filtros. De cada filtro, se calculou o somatório, média e energia. Ao final, foram extraídas 192 features por imagem.
 
 
