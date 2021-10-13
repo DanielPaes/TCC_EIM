@@ -10,7 +10,7 @@ As imagens foram obtidas em laboratório, usando um mini estúdio para controle 
 Para a extração das feautures, utilizou-se a GLCM e o Filtro de Gabor. Os modelos de classificação foram criados usando os algortimos: KNN, SVM, Árvore de Decisão e Regressão Logística.
 Ao final, os desempenhos dos modelos de classificação foram calculados usando as métricas *acurracy, precision, recall* e *f1-score*.
 
-## Extração de caracetísticas
+## Extração de caractísticas
 
 Na extração das caracteríticas, foram utilizados a GLCM e o Filtro de Gabor. 
 
@@ -18,5 +18,7 @@ Na extração das caracteríticas, foram utilizados a GLCM e o Filtro de Gabor.
 
 
 2. **Filtro de Gabor**: se variou o frequency e o theta, gerando 64 filtros. De cada filtro, se calculou o somatório, média e energia. Ao final, foram extraídas 192 features por imagem. Algoritmo usado: [Filtro de Gabor](https://github.com/DanielPaes/TCC_EIM/blob/main/Pinus_Aplicando_Gabor.ipynb).
+
+## Modelos de Classificação
 
 
