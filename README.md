@@ -21,4 +21,24 @@ Na extração das caracteríticas, foram utilizados a GLCM e o Filtro de Gabor.
 
 ## Modelos de Classificação
 
+Os classificadores foram gerados usando os dados extraídos com a GLCM e o Filtro de Gabor. Abaixo são listados os algoritmos usados.
 
+### 1. Modelos usando GLCM
+
+1. [GLCM - KNN](https://github.com/DanielPaes/TCC_EIM/blob/main/GLCM_KNN.ipynb)
+2. [GLCM - SVM](https://github.com/DanielPaes/TCC_EIM/blob/main/GLCM_SVM.ipynb)
+3. [GLCM - Árvore de decisão](https://github.com/DanielPaes/TCC_EIM/blob/main/GLCM_RandomForest.ipynb)
+4. [GLCM - Regressão Logística](https://github.com/DanielPaes/TCC_EIM/blob/main/GLCM_LogisticRegression.ipynb)
+
+### 2. Modelos usando Filtro de Gabor
+
+1. [Filtro de Gabor - KNN](https://github.com/DanielPaes/TCC_EIM/blob/main/Gabor_KNN.ipynb)
+2. [Filtro de Gabor - SVM](https://github.com/DanielPaes/TCC_EIM/blob/main/Gabor_SVM.ipynb)
+3. [Filtro de Gabor - Árvore de decisão](https://github.com/DanielPaes/TCC_EIM/blob/main/Gabor_RandomForest.ipynb)
+4. [Filtro de Gabor- Regressão Logística](https://github.com/DanielPaes/TCC_EIM/blob/main/Gabor_LogisticRegression.ipynb)
+
+
+## Conclusão
+
+Os algoritmos utilizados possibilitaram estudar a avaliar a aplicação das técnicas de visão computacional e aprendizado no problema proposto.
+Houve algumas diferenças entre os modelos de classificação, mostrando que as diferentes técnicas computacionais possuem particularidades que devem ser consideradas.
