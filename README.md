@@ -40,5 +40,5 @@ Os classificadores foram gerados usando os dados extraídos com a GLCM e o Filtr
 
 ## Conclusão
 
-Os algoritmos utilizados possibilitaram estudar a avaliar a aplicação das técnicas de visão computacional e aprendizado no problema proposto.
+Os algoritmos utilizados possibilitaram estudar e avaliar a aplicação das técnicas de visão computacional e aprendizado de máquina no problema proposto.
 Houve algumas diferenças entre os modelos de classificação, mostrando que as diferentes técnicas computacionais possuem particularidades que devem ser consideradas.
